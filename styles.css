@@ -73,3 +73,49 @@ button {
     border: 0;
     border-radius: 5px;
 }
+
+#info-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 8px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+.info-body{
+    display: flex;
+
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.info-header{
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.info-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+}
+
+.info-subtext {
+    text-align: center;
+    color: rgb(102, 99, 99);
+}
